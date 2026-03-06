@@ -15,3 +15,14 @@
 footer {
     font-size: 14px;
 }
+
+#contact{
+    background-image: url("https://images.unsplash.com/photo-1495474472287-4d71bcdd2085");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.card{
+    background: rgba(255,255,255,0.9);
+}
