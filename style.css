@@ -8,7 +8,7 @@
 }
 
 .card img {
-    height: 250px;
+    height: 200px;
     object-fit: cover;
 }
 
@@ -25,4 +25,6 @@ footer {
 
 .card{
     background: rgba(255,255,255,0.9);
+    border: 2px solid red; 
+    padding: 10px;
 }
