@@ -1,141 +1,185 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
-<title>About - Coffee House</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About - Kirana Store</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
+<nav class="navbar navbar-expand-lg navbar-dark bg-success">
+<div class="container">
+<a class="navbar-brand" href="index.html">Kirana Store</a>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container">
-    <a class="navbar-brand" href="index.html">Coffee House ☕</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-        <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
-        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-      </ul>
-    </div>
-  </div>
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+<li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+<li class="nav-item"><a class="nav-link" href="payment.html">Payment</a></li>
+</ul>
+</div>
 </nav>
 
+<div class="container mt-5">
+<h2>About Our Store</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Kirana Store</title>
 
-<section class="py-5">
-  <div class="container">
-    <h1 class="text-center mb-4">About Our Coffee House</h1>
-    
-    <div class="row align-items-center mb-5">
-      <div class="col-md-6">
-        <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb" class="img-fluid rounded shadow">
-      </div>
-      <div class="col-md-6">
-        <h3>Our Story</h3>
-        <p>
-          Coffee House was founded in 2026 with a passion for premium coffee and warm hospitality.
-          We carefully select high-quality coffee beans from trusted farms and roast them
-          to perfection to give our customers the best taste experience.
-        </p>
-        <p>
-          Our café provides a comfortable and relaxing environment where friends,
-          families, and professionals can gather and enjoy fresh coffee.
-        </p>
-      </div>
-    </div>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin:0;
+            background:#f5f5f5;
+        }
 
- 
-    <div class="row text-center mb-5">
-      <div class="col-md-6">
-        <h3>Our Mission</h3>
-        <p>
-          To serve high-quality coffee and create a welcoming place
-          where every customer feels at home.
-        </p>
-      </div>
-      <div class="col-md-6">
-        <h3>Our Vision</h3>
-        <p>
-          To become the most loved coffee destination known
-          for quality, comfort, and excellent service.
-        </p>
-      </div>
-    </div>
+        header{
+            background:#2e8b57;
+            color:white;
+            text-align:center;
+            padding:15px;
+        }
 
+        nav{
+            background:#333;
+            text-align:center;
+            padding:10px;
+        }
 
-    <div class="mb-5">
-      <h3 class="text-center mb-4">Why Choose Us?</h3>
-      <div class="row text-center">
-        <div class="col-md-3">
-          <h5>✔ Premium Beans</h5>
-          <p>We use only high-quality coffee beans.</p>
-        </div>
-        <div class="col-md-3">
-          <h5>✔ Freshly Brewed</h5>
-          <p>Coffee prepared fresh for every order.</p>
-        </div>
-        <div class="col-md-3">
-          <h5>✔ Cozy Atmosphere</h5>
-          <p>Comfortable seating and relaxing vibes.</p>
-        </div>
-        <div class="col-md-3">
-          <h5>✔ Friendly Staff</h5>
-          <p>Professional and welcoming team members.</p>
-        </div>
-      </div>
-    </div>
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:15px;
+            font-weight:bold;
+        }
 
-    
-    <div class="mb-5">
-      <h3 class="text-center mb-4">Meet Our Team</h3>
-      <div class="row text-center">
-        <div class="col-md-4">
-          <img src="https://images.unsplash.com/photo-1607746882042-944635dfe10e" class="rounded-circle mb-3" width="150" height="150">
-          <h5>John Smith</h5>
-          <p>Founder & Head Barista</p>
-        </div>
-        <div class="col-md-4">
-          <img src="https://images.unsplash.com/photo-1544723795-3fb6469f5b39" class="rounded-circle mb-3" width="150" height="150">
-          <h5>Emily Johnson</h5>
-          <p>Manager</p>
-        </div>
-        <div class="col-md-4">
-          <img src="https://images.unsplash.com/photo-1527980965255-d3b416303d12" class="rounded-circle mb-3" width="150" height="150">
-          <h5>Michael Brown</h5>
-          <p>Senior Barista</p>
-        </div>
-      </div>
-    </div>
+        nav a:hover{
+            color:yellow;
+        }
 
+        .container{
+            width:80%;
+            margin:auto;
+            background:white;
+            padding:25px;
+            margin-top:20px;
+            border-radius:8px;
+            box-shadow:0 0 10px rgba(0,0,0,0.2);
+        }
 
-    <div class="text-center mb-5">
-      <h3>Working Hours</h3>
-      <p>Monday - Friday: 8:00 AM - 10:00 PM</p>
-      <p>Saturday - Sunday: 9:00 AM - 11:00 PM</p>
-    </div>
+        h2{
+            color:#2e8b57;
+        }
 
-    <div class="text-center">
-      <h3>Our Quality Promise</h3>
-      <p>
-        We promise to deliver consistent quality, excellent service,
-        and a memorable coffee experience every time you visit.
-      </p>
-    </div>
+        h3{
+            color:#444;
+        }
 
-  </div>
-</section>
+        footer{
+            background:#333;
+            color:white;
+            text-align:center;
+            padding:10px;
+            margin-top:20px;
+        }
+    </style>
+</head>
 
+<body>
 
-<footer class="bg-dark text-white text-center py-3">
-  <p>© 2026 Coffee House | All Rights Reserved</p>
+<header>
+    <h1>Kirana Store</h1>
+    <p>Your Daily Needs Partner</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<div class="container">
+
+<h2>About Kirana Store</h2>
+
+<p>
+A Kirana Store is a traditional Indian grocery shop that provides daily
+household essentials to customers. These stores are an important part of
+Indian society and have been serving local communities for many years.
+Kirana stores are known for trust, personal relationships, and convenient shopping.
+</p>
+
+<h3>History of Kirana Store</h3>
+<p>
+Earlier, kirana shops were small family-run businesses where customers
+bought goods in small quantities according to their needs. Shopkeepers
+maintained strong relationships with customers and even provided credit
+facilities. Over time, kirana stores modernized while keeping traditional values.
+</p>
+
+<h3>Products Available in Kirana Store</h3>
+<ul>
+<li>Rice, Wheat, Flour, Pulses</li>
+<li>Sugar, Salt, Cooking Oil</li>
+<li>Spices and Masalas</li>
+<li>Tea, Coffee, Biscuits, Snacks</li>
+<li>Milk and Dairy Products</li>
+<li>Cold Drinks and Beverages</li>
+<li>Soaps, Shampoo, Personal Care Items</li>
+<li>Detergents and Cleaning Products</li>
+<li>Household Daily Use Items</li>
+</ul>
+
+<h3>Services Provided</h3>
+<ul>
+<li>Affordable pricing</li>
+<li>Home delivery service</li>
+<li>Customer-friendly service</li>
+<li>Digital payment options (UPI, Card, Cash)</li>
+<li>Quick billing and product availability</li>
+</ul>
+
+<h3>Importance of Kirana Stores</h3>
+<p>
+Kirana stores play a major role in daily life because they provide essential
+items near residential areas. Customers can buy products quickly without
+visiting large supermarkets. These stores support local economy and
+provide employment opportunities.
+</p>
+
+<h3>Mission</h3>
+<p>
+Our mission is to provide high-quality products at reasonable prices while
+maintaining trust and satisfaction for every customer.
+</p>
+
+<h3>Vision</h3>
+<p>
+Our vision is to combine traditional kirana service with modern technology
+to create a fast, reliable, and comfortable shopping experience.
+</p>
+
+<h3>Modern Development</h3>
+<p>
+Today, kirana stores use digital payments, online ordering systems,
+and organized product management while continuing personal customer care.
+</p>
+
+</div>
+
+<footer>
+<p>© 2026 Kirana Store | All Rights Reserved</p>
 </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+</p>
+</div>
+
 </body>
 </html>

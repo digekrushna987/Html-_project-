@@ -1,100 +1,122 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Coffee House</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kirana Store - Home</title>
 
-s
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    
-   
-    <link rel="stylesheet" href="style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+
+.hero-section{
+    background-image: url("imge/background\ img.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.overlay{
+    background: rgba(0,0,0,0.6);
+    padding:40px;
+    border-radius:10px;
+}
+
+
+.product-box{
+    background: rgba(255,255,255,0.9);
+    padding:15px;
+    margin:10px;
+    border-radius:10px;
+    color:black;
+}
+
+
+</style>
+
 </head>
+
 <body>
 
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container">
-    <a class="navbar-brand" href="#">Coffee House ☕</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
-        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-      </ul>
-    </div>
-  </div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-success">
+<div class="container">
+<a class="navbar-brand" href="index.html">Kirana Store</a>
+
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+<li class="nav-item"><a class="nav-link" href="payment.html">Payment</a></li>
+</ul>
+</div>
 </nav>
 
+<div class="hero-section">
+<div class="overlay">
 
-<section id="home" class="hero text-white text-center d-flex align-items-center">
-  <div class="container">
-    <h1 class="display-4">Fresh Coffee Everyday</h1>
-    <p class="lead">Start your day with our special brew</p>
-    <a href="products.html" class="btn btn-warning btn-lg">View Products</a>
-  </div>
-</section>
+<h1>Welcome to Kirana Store</h1>
+<p>Your Daily Grocery Partner</p>
 
-<section id="about" class="py-5">
-  <div class="container text-center">
-    <h2>About Us</h2>
-    <p>We serve the best coffee made from premium beans. Cozy atmosphere and friendly staff.</p>
-  </div>
-</section>
+<div class="row mt-4">
 
+<div class="col-md-4">
+<div class="product-box">
+<h5>Grocery Items</h5>
+<p>Rice, wheat, flour, pulses, sugar and cooking oil.</p>
+</div>
+</div>
 
-<section id="menu" class="py-5 bg-light">
-  <div class="container">
-    <h2 class="text-center mb-4">Our Menu</h2>
-    <div class="row">
-      
-      <div class="col-md-4">
-        <div class="card shadow">
-          <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93" class="card-img-top" alt="Coffee">
-          <div class="card-body text-center">
-            <h5 class="card-title">Espresso</h5>
-            <p>30</p>
-          </div>
-        </div>
-      </div>
+<div class="col-md-4">
+<div class="product-box">
+<h5>Spices & Masalas</h5>
+<p>Turmeric, chili powder, coriander and Indian spices.</p>
+</div>
+</div>
 
-      <div class="col-md-4">
-        <div class="card shadow">
-          <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085" class="card-img-top" alt="Coffee">
-          <div class="card-body text-center">
-            <h5 class="card-title">Cappuccino</h5>
-            <p>45</p>
-          </div>
-        </div>
-      </div>
+<div class="col-md-4">
+<div class="product-box">
+<h5>Snacks & Beverages</h5>
+<p>Biscuits, chips, tea, coffee and cold drinks.</p>
+</div>
+</div>
 
-      <div class="col-md-4">
-        <div class="card shadow">
-          <img src="https://thumbs.dreamstime.com/b/clear-pixel-visual-cup-coffee-word-coffee-442326396.jpg" class="card-img-top" alt="Coffee">
-          <div class="card-body text-center">
-            <h5 class="card-title">Latte</h5>
-            <p>40</p>
-          </div>
-        </div>
-      </div>
+<div class="col-md-4">
+<div class="product-box">
+<h5>Dairy Products</h5>
+<p>Milk, butter, curd and cheese available daily.</p>
+</div>
+</div>
 
-    </div>
-  </div>
-</section>
+<div class="col-md-4">
+<div class="product-box">
+<h5>Personal Care</h5>
+<p>Soap, shampoo, toothpaste and daily essentials.</p>
+</div>
+</div>
 
+<div class="col-md-4">
+<div class="product-box">
+<h5>Household Items</h5>
+<p>Detergents, cleaning liquids and home products.</p>
+</div>
+</div>
 
+</div>
 
-<footer class="bg-dark text-white text-center py-3">
- 
+<a href="products.html" class="btn btn-success mt-3">Shop Now</a>
+
+</div>
+</div>
+
+<footer class="bg-dark text-white text-center p-3">
+<p>© 2026 Kirana Store | All Rights Reserved</p>
 </footer>
-
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
